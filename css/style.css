@@ -1875,12 +1875,21 @@ h1 {
   background-image: linear-gradient(90deg, rgba(3, 14, 29, .92), rgba(3, 14, 29, .45)), url('../assets/images/coastal-roof.webp');
 }
 
-.issue-grid.three {
-  grid-template-columns: repeat(3, 1fr);
+.back-link {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: rgba(255, 255, 255, .78);
+  font-size: 15px;
+  font-weight: 600;
+  transition: color .2s;
 }
 
-.issue-grid.three .issue-tile {
-  aspect-ratio: 4 / 3;
+.back-link:hover {
+  color: var(--amber);
+}
+
+.subhero-cta {
+  margin-top: 28px;
 }
 
 .service-block h2 a {
@@ -2222,14 +2231,6 @@ h1 {
 
   .guide-img {
     height: 180px;
-  }
-
-  .issue-grid.three {
-    grid-template-columns: 1fr;
-  }
-
-  .issue-grid.three .issue-tile {
-    aspect-ratio: 16 / 7;
   }
 
   .guide-body {
