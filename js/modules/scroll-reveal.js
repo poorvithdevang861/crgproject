@@ -15,7 +15,6 @@ const REVEAL_SELECTORS = [
   '.compare-wrap > *',
   '.timeline > *',
   '.cta-hero .container',
-  '.partner-panel',
   '.industry'
 ].join(', ');
 
