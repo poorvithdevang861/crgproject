@@ -12,10 +12,8 @@ export const SITE_CONFIG = {
 
 /* Pages that have no navbar link of their own, mapped to the item to highlight */
 export const NAV_ALIASES = {
-  'roof-inspections.html': 'services.html',
-  'storm-damage.html': 'services.html',
-  'roof-replacement.html': 'services.html',
-  'insurance-support.html': 'services.html'
+  'thank-you.html': 'contact.html',
+  'industries.html': 'services.html'
 };
 
 /* Each issue shows its own example in the pop-up's "Anything else?" box */

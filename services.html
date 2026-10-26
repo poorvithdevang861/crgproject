@@ -17,8 +17,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@800;900&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@800;900&display=swap"></noscript>
-  <link rel="preload" as="image" href="assets/images/coastal-roof.webp" fetchpriority="high">
-  <link rel="stylesheet" href="css/style.css?v=20">
+  <link rel="preload" as="image" href="assets/images/svc-inspections.webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css?v=21">
 </head>
 <body id="top">
   <header class="topbar">
@@ -27,13 +27,21 @@
       <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
       <nav class="nav">
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">Services</button>
+          <div class="nav-dropdown-menu">
+            <a href="services.html">All Services Overview</a>
+            <a href="roof-inspections.html">Free Roof Inspections</a>
+            <a href="storm-damage.html">Storm &amp; Hail Assessment</a>
+            <a href="roof-replacement.html">Roof Replacement</a>
+            <a href="insurance-support.html">Insurance Support</a>
+          </div>
+        </div>
         <a href="about.html">About</a>
         <div class="nav-dropdown">
           <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">Explore</button>
           <div class="nav-dropdown-menu">
             <a href="projects.html">Projects</a>
-            <a href="industries.html">Industries</a>
             <a href="resources.html">Resources</a>
             <a href="faq.html">FAQ</a>
           </div>
@@ -46,78 +54,187 @@
   <main>
     <section class="subhero">
       <div class="container">
-        <p class="eyebrow">Our Services</p>
+        <p class="eyebrow">Queensland Roofing Services</p>
         <h1>Roofing services, start to finish<span class="dot">.</span></h1>
+        <p class="subhero-lead">From the first inspection to the final Colorbond® sheet, here’s how Civic Restoration Group helps protect Queensland properties.</p>
       </div>
     </section>
+
     <section class="section section-soft">
       <div class="container">
-        <p class="section-intro">From the first inspection to the final sheet, here’s how CRG can help. Choose a service to learn more.</p>
-        <div class="service-list">
-          <article class="service-block" id="inspections">
-            <div>
-              <span>01</span>
-              <h2><a href="roof-inspections.html">Free Roof Inspections</a></h2>
-              <p>Clear advice before you commit to any major work.</p>
+        <nav class="service-jump" aria-label="Services navigation">
+          <a href="#inspections">01. Free Inspections</a>
+          <a href="#storm-damage">02. Storm &amp; Hail</a>
+          <a href="#replacement">03. Roof Replacement</a>
+          <a href="#insurance">04. Insurance Support</a>
+          <a href="#properties">Properties We Service</a>
+        </nav>
+
+        <div class="industry-list">
+          <!-- Service 01: Free Roof Inspections -->
+          <article class="industry" id="inspections">
+            <div class="industry-img">
+              <img src="assets/images/svc-inspections.webp" alt="Australian roofing specialist conducting a thorough roof inspection with digital tablet" loading="lazy">
             </div>
-            <div>
+            <div class="industry-body">
+              <span class="tag">01 · No Cost, No Obligation</span>
+              <h2>Free Roof Inspections</h2>
+              <p>Clear, unbiased advice before you spend a single dollar on repairs or major works.</p>
               <ul class="benefits">
-                <li>No cost and no obligation to go ahead</li>
-                <li>Photos of what we find, so you can see it too</li>
-                <li>Plain-English explanation and next steps</li>
+                <li>No cost and zero obligation to proceed with work</li>
+                <li>High-resolution photographic records of everything we find</li>
+                <li>Surface, flashings, valley irons, gutters and ridge capping checked</li>
+                <li>Plain-English explanations with realistic options</li>
               </ul>
-              <a class="btn btn-light-outline" href="roof-inspections.html">Learn more →</a>
+              <div class="cta-row" style="display:flex; flex-wrap:wrap; gap:12px; margin-top:16px;">
+                <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Free roof inspection">Book a Free Inspection</a>
+                <a class="btn btn-light-outline" href="roof-inspections.html">Learn more about inspections →</a>
+              </div>
             </div>
           </article>
-          <article class="service-block" id="storm-damage">
-            <div>
-              <span>02</span>
-              <h2><a href="storm-damage.html">Storm &amp; Hail Assessment</a></h2>
-              <p>Detailed visual inspections and damage documentation.</p>
+
+          <!-- Service 02: Storm & Hail Assessment -->
+          <article class="industry" id="storm-damage">
+            <div class="industry-img">
+              <img src="assets/images/svc-storm.webp" alt="Corrugated steel roof with severe hail impact damage under storm skies" loading="lazy">
             </div>
-            <div>
+            <div class="industry-body">
+              <span class="tag">02 · Severe Weather Checks</span>
+              <h2>Storm &amp; Hail Damage Assessment</h2>
+              <p>Find hidden impact damage and structural micro-dents before they lead to interior ceiling leaks.</p>
               <ul class="benefits">
-                <li>Roof surface, flashings, ridge capping, gutters and valleys checked</li>
-                <li>Photo records of any storm or hail damage</li>
-                <li>Honest advice on repair versus replacement</li>
+                <li>Detailed check of metal sheets, tile surfaces, flashings and valleys</li>
+                <li>Photographic proof of hail strike marks and sheet distortion</li>
+                <li>Honest assessment of localized repairs vs. full roof replacement</li>
+                <li>Insurer-ready documentation formatted for fast review</li>
               </ul>
-              <a class="btn btn-light-outline" href="storm-damage.html">Learn more →</a>
+              <div class="cta-row" style="display:flex; flex-wrap:wrap; gap:12px; margin-top:16px;">
+                <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Storm or hail damage">Request a Storm Assessment</a>
+                <a class="btn btn-light-outline" href="storm-damage.html">Learn more about storm damage →</a>
+              </div>
             </div>
           </article>
-          <article class="service-block" id="replacement">
-            <div>
-              <span>03</span>
-              <h2><a href="roof-replacement.html">Roof Replacement</a></h2>
-              <p>Project-managed roof restoration using quality roofing products.</p>
+
+          <!-- Service 03: Colorbond Roof Replacement -->
+          <article class="industry" id="replacement">
+            <div class="industry-img">
+              <img src="assets/images/svc-replacement.webp" alt="Australian tradesmen professionally installing new Colorbond steel roof sheets" loading="lazy">
             </div>
-            <div>
+            <div class="industry-body">
+              <span class="tag">03 · Full Project Management</span>
+              <h2>Colorbond® Roof Replacement</h2>
+              <p>Turnkey roof restorations built specifically to endure Queensland’s harsh climate, storms, and intense heat.</p>
               <ul class="benefits">
-                <li>Premium Colorbond® steel roofing</li>
-                <li>Managed from strip-out to installation</li>
-                <li>Quality control and clear communication throughout</li>
+                <li>100% Genuine BlueScope Colorbond® steel sheeting</li>
+                <li>High-performance anti-condensation thermal insulation blanket</li>
+                <li>Full structural batten inspection, new flashings and quad gutters</li>
+                <li>End-to-end site management with QBCC warranty compliance</li>
               </ul>
-              <a class="btn btn-light-outline" href="roof-replacement.html">Learn more →</a>
+              <div class="cta-row" style="display:flex; flex-wrap:wrap; gap:12px; margin-top:16px;">
+                <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Need a new roof">Explore Roof Replacement</a>
+                <a class="btn btn-light-outline" href="roof-replacement.html">Learn more about replacement →</a>
+              </div>
             </div>
           </article>
-          <article class="service-block" id="insurance">
-            <div>
-              <span>04</span>
-              <h2><a href="insurance-support.html">Insurance Support</a></h2>
-              <p>Photos, scope notes and inspection reports to support the process.</p>
+
+          <!-- Service 04: Insurance Documentation Support -->
+          <article class="industry" id="insurance">
+            <div class="industry-img">
+              <img src="assets/images/svc-insurance.webp" alt="Detailed Australian roofing insurance documentation and tablet on desk" loading="lazy">
             </div>
-            <div>
+            <div class="industry-body">
+              <span class="tag">04 · Independent Advocacy</span>
+              <h2>Insurance Documentation Support</h2>
+              <p>Photos, detailed scope notes, and professional inspection reports to streamline your insurance claim.</p>
               <ul class="benefits">
-                <li>Inspection reports with supporting photos</li>
-                <li>Scope notes for your insurer</li>
-                <li>Extra guidance from our partner, Claims Approved</li>
+                <li>Comprehensive photographic documentation of all damage</li>
+                <li>Itemised scope of works that insurers can clearly assess</li>
+                <li>Specialist guidance from our independent partner, Claims Approved</li>
+                <li>One single point of contact from claim lodgement to project completion</li>
               </ul>
-              <a class="btn btn-light-outline" href="insurance-support.html">Learn more →</a>
+              <div class="cta-row" style="display:flex; flex-wrap:wrap; gap:12px; margin-top:16px;">
+                <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Insurance claim">Get Insurance Support</a>
+                <a class="btn btn-light-outline" href="insurance-support.html">Learn more about insurance →</a>
+              </div>
             </div>
           </article>
         </div>
       </div>
     </section>
+
+    <!-- Properties We Service (Integrated to replace separate industries page) -->
+    <section class="section" id="properties">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Who We Work With</p>
+            <h2>Roofing for every kind of property<span class="dot">.</span></h2>
+          </div>
+          <p>Every Queensland property has unique roof geometry and engineering requirements. Here is how we tailor our services:</p>
+        </div>
+        <div class="issue-grid">
+          <div class="issue-tile" id="homeowners">
+            <img src="assets/images/coastal-roof.webp" alt="Queensland residential home with a Colorbond roof" loading="lazy">
+            <span class="issue-label">
+              <b>Homeowners &amp; Residential</b>
+              <small>Free inspections, storm damage support, and new Colorbond® roofs for Queensland families.</small>
+            </span>
+          </div>
+          <div class="issue-tile" id="acreage">
+            <img src="assets/images/rural-homestead.webp" alt="Restored Queensland acreage homestead with brand new Colorbond roof" loading="lazy">
+            <span class="issue-label">
+              <b>Acreage &amp; Rural Properties</b>
+              <small>Large homesteads, machinery sheds, and outbuildings inspected and re-roofed with heavy-duty Colorbond®.</small>
+            </span>
+          </div>
+          <div class="issue-tile" id="commercial">
+            <img src="assets/images/commercial-roof.webp" alt="Modern commercial building complex with Colorbond metal roof in Brisbane" loading="lazy">
+            <span class="issue-label">
+              <b>Commercial Buildings</b>
+              <small>Detailed condition reports, drone mapping, and managed replacements for commercial facilities.</small>
+            </span>
+          </div>
+          <div class="issue-tile" id="strata">
+            <img src="assets/images/strata-roof.webp" alt="Modern residential strata townhouse complex in Queensland" loading="lazy">
+            <span class="issue-label">
+              <b>Strata &amp; Body Corporate</b>
+              <small>Committee-ready photo reports, multi-dwelling insurance claims, and staged re-roofing projects.</small>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose CRG -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">The CRG Difference</p>
+            <h2>Restoring confidence in every roof<span class="dot">.</span></h2>
+          </div>
+        </div>
+        <div class="process-grid three">
+          <div class="step">
+            <span>01</span>
+            <h3>Licensed &amp; Local</h3>
+            <p>Queensland-founded team with QBCC trade credentials, full insurance, and deep local weather experience.</p>
+          </div>
+          <div class="step">
+            <span>02</span>
+            <h3>Genuine BlueScope</h3>
+            <p>We only install authentic Australian Colorbond® steel engineered to withstand severe coastal salt, hail, and cyclonic winds.</p>
+          </div>
+          <div class="step">
+            <span>03</span>
+            <h3>Independent Advice</h3>
+            <p>Our initial inspections are 100% free with honest explanations. If your roof doesn’t need replacing, we’ll tell you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
   <footer class="footer">
     <div class="container footer-cta">
       <div>
@@ -143,12 +260,12 @@
         <h3>Company</h3>
         <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
-        <a href="industries.html">Industries</a>
         <a href="resources.html">Resources</a>
         <a href="faq.html">FAQs</a>
       </div>
       <div>
         <h3>Services</h3>
+        <a href="services.html">All Services Overview</a>
         <a href="roof-inspections.html">Free Roof Inspections</a>
         <a href="storm-damage.html">Storm &amp; Hail Assessment</a>
         <a href="roof-replacement.html">Roof Replacement</a>
@@ -166,6 +283,6 @@
       <a class="back-to-top" href="#top">Back to top ↑</a>
     </div>
   </footer>
-  <script type="module" src="js/main.js?v=20"></script>
+  <script type="module" src="js/main.js?v=21"></script>
 </body>
 </html>
