@@ -1483,32 +1483,50 @@ p:last-child {
   margin: 0;
 }
 
-/* Service Guarantee Callout Box */
+/* Service Guarantee Callout Box (Reassurance Focus) */
 .service-guarantee-box {
   background: var(--navy);
   border-radius: 22px;
-  padding: 38px 42px;
+  padding: 30px 36px;
   color: #ffffff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 32px;
-  margin-top: 48px;
+  gap: 24px;
+  margin-top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 18px 40px rgba(7, 23, 43, 0.15);
+  box-shadow: 0 16px 36px rgba(7, 23, 43, 0.12);
+}
+
+.service-guarantee-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(245, 169, 0, 0.16);
+  color: var(--amber);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.service-guarantee-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.service-guarantee-copy {
+  flex: 1;
 }
 
 .service-guarantee-copy h3 {
-  font-size: 22px;
+  font-size: 20px;
   color: #ffffff;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
 }
 
 .service-guarantee-copy p {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.85);
   margin: 0;
-  max-width: 620px;
   line-height: 1.55;
 }
 
