@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"></noscript>
   <link rel="preload" as="image" href="assets/images/hero-home.webp" fetchpriority="high">
-  <link rel="stylesheet" href="css/style.css?v=26">
+  <link rel="stylesheet" href="css/style.css?v=27">
 </head>
 <body id="top">
   <!-- Top Navigation Header -->
@@ -64,24 +64,26 @@
   </header>
 
   <main>
-    <!-- Hero -->
+    <!-- Creative Hero (No Bulky Banner Container) -->
     <section class="hero">
       <div class="container hero-inner">
-        <div class="hero-pill">Queensland Roof Restoration</div>
-        <h1>Restoring Confidence in Every Structure<span class="dot">.</span></h1>
-        <p class="lead">Free roof inspections, unbiased advice, and genuine Colorbond® restoration for Queensland homes.</p>
-        
-        <div class="hero-actions">
-          <a class="btn btn-amber" href="contact.html" data-inspection-dialog>Book Free Inspection</a>
-          <a class="btn btn-outline" href="tel:1300417246">Call 1300 417 246</a>
+        <div class="hero-copy">
+          <h1>Restoring Confidence in Every Roof<span class="dot">.</span></h1>
+          <p class="lead">Free inspections, objective photo reports, and genuine Colorbond® craftsmanship across Queensland.</p>
+          
+          <div class="hero-actions">
+            <a class="btn btn-amber" href="contact.html" data-inspection-dialog>Book Free Inspection</a>
+            <a class="btn btn-outline" href="tel:1300417246">Call 1300 417 246</a>
+          </div>
         </div>
 
-        <ul class="hero-proof">
-          <li>✓ No cost or obligation</li>
-          <li>✓ 48h photo report</li>
-          <li>✓ QBCC licensed</li>
-          <li>✓ Genuine Colorbond®</li>
-        </ul>
+        <div class="hero-card">
+          <img src="assets/images/coastal-roof.webp" alt="Restored Queensland Colorbond roof" fetchpriority="high">
+          <div class="hero-card-badge">
+            <b>Queensland Trade Certified</b>
+            <span>QBCC Accredited</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -125,7 +127,6 @@
     <section class="section">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Diagnose &amp; Resolve</p>
           <h2>What’s happening with your roof<span class="dot">?</span></h2>
           <p>Choose your situation below for direct advice, or book an inspection to let us check it safely.</p>
         </div>
@@ -174,7 +175,6 @@
     <section class="section">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">How It Works</p>
           <h2>Three steps. Zero hassle<span class="dot">.</span></h2>
           <p>Clear, transparent, and completely free of sales pressure.</p>
         </div>
@@ -203,7 +203,6 @@
     <section class="section section-soft standard-section">
       <div class="container standard-layout">
         <div class="standard-header">
-          <p class="eyebrow">The CRG Standard</p>
           <h2>Evidence-first roofing. Zero sales pressure<span class="dot">.</span></h2>
           <p>Every recommendation is backed by dated photographic proof so you never have to guess or accept aggressive sales pitches.</p>
         </div>
@@ -288,6 +287,6 @@
     </div>
   </footer>
 
-  <script type="module" src="js/main.js?v=26"></script>
+  <script type="module" src="js/main.js?v=27"></script>
 </body>
 </html>
