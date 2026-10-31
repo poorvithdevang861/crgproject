@@ -13,7 +13,8 @@ export const SITE_CONFIG = {
 /* Pages that have no navbar link of their own, mapped to the item to highlight */
 export const NAV_ALIASES = {
   'thank-you.html': 'contact.html',
-  'industries.html': 'services.html'
+  'services.html': 'roof-inspections.html',
+  'industries.html': 'roof-inspections.html'
 };
 
 /* Each issue shows its own example in the pop-up's "Anything else?" box */
