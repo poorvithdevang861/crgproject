@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap"></noscript>
   <link rel="preload" as="image" href="assets/images/svc-inspections.webp" fetchpriority="high">
-  <link rel="stylesheet" href="css/style.css?v=27">
+  <link rel="stylesheet" href="css/style.css?v=30">
 </head>
 <body id="top">
   <!-- Header -->
@@ -63,7 +63,7 @@
   </header>
 
   <main>
-    <!-- Creative Page Head (No Banner Container) -->
+    <!-- Centered Editorial Page Head (No Vertical Line) -->
     <section class="page-head">
       <div class="container page-head-inner">
         <h1>Free Roof Inspections<span class="dot">.</span></h1>
@@ -71,53 +71,111 @@
       </div>
     </section>
 
-    <!-- Inspection Details -->
+    <!-- Redesigned Service Showcase Grid -->
     <section class="section section-soft">
       <div class="container">
-        <article class="industry">
-          <div class="industry-img">
-            <img src="assets/images/svc-inspections.webp" alt="Roof inspection" loading="lazy">
+        <div class="service-showcase">
+          <!-- Left: Featured Diagnostic Card -->
+          <div class="service-feature-card">
+            <div class="service-feature-img">
+              <img src="assets/images/svc-inspections.webp" alt="Roof inspection with high-resolution photographic assessment" loading="lazy">
+            </div>
+            <div class="campaign-metrics">
+              <div class="metric-item"><span>Cost</span><b>$0.00 Free</b></div>
+              <div class="metric-center">40-Point Check</div>
+              <div class="metric-item" style="text-align:right;"><span>Turnaround</span><b>48 Hours</b></div>
+            </div>
+            <div class="service-feature-body">
+              <h2>Complete Photographic Diagnostic</h2>
+              <p>Know the true condition of your roof before spending a dollar. Our licensed tradespeople conduct a safe, exhaustive photographic check across every pitch, flashing, and gutter with zero sales pressure.</p>
+              <div class="cta-row">
+                <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Free roof inspection">Book Free Inspection</a>
+                <a class="btn btn-outline" href="tel:1300417246">Call 1300 417 246</a>
+              </div>
+            </div>
           </div>
-          <div class="industry-body">
-            <span class="tag">What We Check</span>
-            <h2>A clear diagnostic of your roof’s health.</h2>
-            <p>Our licensed tradespeople conduct a safe, thorough photographic check across every critical area:</p>
-            <ul class="benefits">
-              <li><strong>Surfaces:</strong> Hail strikes, rust spots, coating wear, and loose fixings</li>
-              <li><strong>Flashings:</strong> Penetrations, skylights, vent pipes, and wall junctions</li>
-              <li><strong>Valleys &amp; Gutters:</strong> Ponding water, debris dams, and drainage fall</li>
-              <li><strong>Ridge Capping:</strong> Cracked mortar bedding and wind uplift movement</li>
-            </ul>
-            <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Free roof inspection" style="align-self:flex-start;">
-              Book Free Inspection
-            </a>
+
+          <!-- Right: 4 Diagnostic Spec Cards -->
+          <div class="service-spec-grid">
+            <div class="service-spec-card">
+              <div class="service-spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              </div>
+              <h3>Surfaces &amp; Fixings</h3>
+              <p>Macro photo check of hail strikes, rust hotspots, protective coating wear, and loosened tek screws.</p>
+            </div>
+
+            <div class="service-spec-card">
+              <div class="service-spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3>Flashings &amp; Penetrations</h3>
+              <p>Critical inspection of skylights, vent pipes, chimney junctions, and parapets where leaks originate.</p>
+            </div>
+
+            <div class="service-spec-card">
+              <div class="service-spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+              </div>
+              <h3>Valleys &amp; Drainage Fall</h3>
+              <p>Identifying ponding water, leaf sediment blockages, downpipe capacity, and gutter bracket falls.</p>
+            </div>
+
+            <div class="service-spec-card">
+              <div class="service-spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              </div>
+              <h3>Ridge Capping &amp; Bedding</h3>
+              <p>Evaluating cracked mortar bedding, dislodged ridge clips, and storm wind uplift movement.</p>
+            </div>
           </div>
-        </article>
+        </div>
+
+        <!-- Guarantee Callout Box -->
+        <div class="service-guarantee-box">
+          <div class="service-guarantee-copy">
+            <h3>100% Free &amp; Independent Trade Advice</h3>
+            <p>No pushy salespeople, no aggressive upsells. If your roof is sound and only needs a minor touch-up, we will tell you honestly. You get high-res photos to keep.</p>
+          </div>
+          <div class="service-guarantee-actions">
+            <a class="btn btn-amber" href="contact.html" data-inspection-dialog data-issue="Free roof inspection">Request Inspection</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- 3 Steps -->
     <section class="section">
       <div class="container">
-        <div class="section-head">
-          <h2>How it works<span class="dot">.</span></h2>
+        <div class="section-head" style="text-align:center; margin:0 auto 48px;">
+          <h2>How your inspection works<span class="dot">.</span></h2>
+          <p>Simple, transparent, and completely free from start to finish.</p>
         </div>
 
         <ol class="timeline">
           <li class="timeline-step">
-            <span class="timeline-num">01</span>
-            <h3>Book</h3>
-            <p>Tell us your suburb and contact details. We confirm a suitable time window.</p>
+            <div class="timeline-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            </div>
+            <span class="timeline-num">Step 01</span>
+            <h3>Book Online</h3>
+            <p>Submit your property details in 30 seconds. We confirm a convenient inspection time window.</p>
           </li>
           <li class="timeline-step">
-            <span class="timeline-num">02</span>
-            <h3>Check</h3>
-            <p>We safely inspect and photograph the entire roof structure from top to bottom.</p>
+            <div class="timeline-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <span class="timeline-num">Step 02</span>
+            <h3>Roof Diagnostic</h3>
+            <p>Our licensed tradesperson conducts a safe, thorough photographic examination of every pitch.</p>
           </li>
           <li class="timeline-step">
-            <span class="timeline-num">03</span>
-            <h3>Explain</h3>
-            <p>You receive high-resolution photos and plain-English recommendations within 48 hours.</p>
+            <div class="timeline-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+            </div>
+            <span class="timeline-num">Step 03</span>
+            <h3>Detailed Report</h3>
+            <p>You receive full-resolution photos and plain-English recommendations delivered within 48 hours.</p>
           </li>
         </ol>
       </div>
@@ -126,24 +184,25 @@
     <!-- FAQs -->
     <section class="section section-soft">
       <div class="container">
-        <div class="section-head">
-          <h2>Good to know<span class="dot">.</span></h2>
+        <div class="section-head" style="text-align:center; margin:0 auto 40px;">
+          <h2>Roof inspection FAQs<span class="dot">.</span></h2>
+          <p>Everything you need to know about our free diagnostic inspections.</p>
         </div>
 
         <div class="faq-list">
           <details class="faq-item">
             <summary>Is the inspection genuinely free?</summary>
-            <p>Yes. There is zero cost, zero call-out fee, and zero obligation to proceed with any work.</p>
+            <p>Yes. There is zero cost, zero call-out fee, and zero obligation to proceed with any repair or replacement work.</p>
           </details>
 
           <details class="faq-item">
-            <summary>Do I need to be home?</summary>
-            <p>Not if we have safe perimeter access to set up our ladder. If you have interior ceiling stains, having someone home allows us to inspect inside as well.</p>
+            <summary>Do I need to be home for the inspection?</summary>
+            <p>Not if we have safe perimeter access to set up our ladders. If you have interior ceiling water stains, having someone home allows us to inspect inside as well.</p>
           </details>
 
           <details class="faq-item">
-            <summary>Can this report be used for insurance?</summary>
-            <p>Yes. If storm damage is identified, our photos and notes are formatted to support your claim lodgement.</p>
+            <summary>Can this photographic report be used for insurance claims?</summary>
+            <p>Yes. If storm damage or hail impact is detected, our photos, notes, and scopes are formatted specifically to meet insurer lodgement requirements.</p>
           </details>
         </div>
       </div>
@@ -201,6 +260,6 @@
     </div>
   </footer>
 
-  <script type="module" src="js/main.js?v=27"></script>
+  <script type="module" src="js/main.js?v=30"></script>
 </body>
 </html>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" fill="none">
+  <!-- Subtle Continental & Regional Silhouette Map (Soft Sand/Taupe Tone as in Reference) -->
+  <g opacity="0.55" fill="#efe9dc">
+    <!-- Stylized regional / coastline silhouette -->
+    <path d="M1120 40 C1180 30, 1260 50, 1310 90 C1360 130, 1410 160, 1430 220 C1450 280, 1420 340, 1390 390 C1360 440, 1380 500, 1370 560 C1360 620, 1320 670, 1290 720 C1250 780, 1220 830, 1160 860 C1110 885, 1060 840, 1030 800 C990 750, 1010 700, 1040 650 C1070 600, 1090 540, 1070 480 C1050 420, 1000 380, 990 320 C980 260, 1010 200, 1040 150 C1070 100, 1080 50, 1120 40 Z"/>
+    
+    <!-- Secondary organic island / peninsula contour -->
+    <path d="M1360 600 C1400 590, 1430 630, 1420 680 C1410 730, 1370 760, 1340 740 C1310 720, 1320 620, 1360 600 Z"/>
+    <path d="M1250 200 C1280 180, 1320 210, 1310 240 C1300 270, 1260 280, 1240 250 C1220 220, 1230 210, 1250 200 Z"/>
+    
+    <!-- Top-left subtle continental wave -->
+    <path d="M-60 120 C40 80, 140 100, 220 160 C290 210, 310 280, 280 340 C250 400, 180 430, 110 420 C40 410, -20 460, -80 440 Z" opacity="0.4"/>
+  </g>
+
+  <!-- Dotted Matrix / Halftone Geographic Cluster (Matching Reference Image) -->
+  <g fill="#dfd6c6" opacity="0.65">
+    <!-- Circular dot cluster left -->
+    <circle cx="210" cy="520" r="2.5"/>
+    <circle cx="225" cy="510" r="3"/>
+    <circle cx="240" cy="505" r="3.5"/>
+    <circle cx="255" cy="505" r="3.5"/>
+    <circle cx="270" cy="512" r="3"/>
+    <circle cx="285" cy="525" r="2.5"/>
+
+    <circle cx="195" cy="538" r="2.5"/>
+    <circle cx="210" cy="530" r="3.5"/>
+    <circle cx="225" cy="524" r="4"/>
+    <circle cx="240" cy="520" r="4.5"/>
+    <circle cx="255" cy="520" r="4.5"/>
+    <circle cx="270" cy="528" r="4"/>
+    <circle cx="285" cy="540" r="3.5"/>
+    <circle cx="300" cy="555" r="2.5"/>
+
+    <circle cx="185" cy="560" r="2"/>
+    <circle cx="200" cy="550" r="3"/>
+    <circle cx="215" cy="542" r="4"/>
+    <circle cx="230" cy="538" r="4.5"/>
+    <circle cx="245" cy="535" r="5"/>
+    <circle cx="260" cy="538" r="4.5"/>
+    <circle cx="275" cy="545" r="4"/>
+    <circle cx="290" cy="558" r="3"/>
+    <circle cx="305" cy="575" r="2.5"/>
+
+    <circle cx="180" cy="585" r="2"/>
+    <circle cx="195" cy="572" r="3"/>
+    <circle cx="210" cy="562" r="3.5"/>
+    <circle cx="225" cy="555" r="4.5"/>
+    <circle cx="240" cy="552" r="4.5"/>
+    <circle cx="255" cy="555" r="4"/>
+    <circle cx="270" cy="565" r="3.5"/>
+    <circle cx="285" cy="580" r="3"/>
+
+    <circle cx="185" cy="610" r="2"/>
+    <circle cx="200" cy="595" r="2.5"/>
+    <circle cx="215" cy="585" r="3.5"/>
+    <circle cx="230" cy="578" r="4"/>
+    <circle cx="245" cy="575" r="4"/>
+    <circle cx="260" cy="580" r="3.5"/>
+    <circle cx="275" cy="595" r="2.5"/>
+
+    <circle cx="200" cy="625" r="2"/>
+    <circle cx="215" cy="612" r="2.5"/>
+    <circle cx="230" cy="605" r="3"/>
+    <circle cx="245" cy="600" r="3"/>
+    <circle cx="260" cy="608" r="2.5"/>
+
+    <!-- Arching dotted trail leading across center -->
+    <circle cx="330" cy="480" r="2.5"/>
+    <circle cx="350" cy="465" r="3"/>
+    <circle cx="372" cy="455" r="3"/>
+    <circle cx="395" cy="450" r="2.5"/>
+    <circle cx="418" cy="452" r="2"/>
+    <circle cx="440" cy="460" r="2"/>
+
+    <!-- Subtle dot cluster bottom right -->
+    <circle cx="1080" cy="720" r="2.5"/>
+    <circle cx="1100" cy="710" r="3"/>
+    <circle cx="1120" cy="715" r="3.5"/>
+    <circle cx="1140" cy="728" r="3"/>
+    <circle cx="1160" cy="745" r="2.5"/>
+    <circle cx="1090" cy="740" r="2.5"/>
+    <circle cx="1110" cy="735" r="3.5"/>
+    <circle cx="1130" cy="740" r="4"/>
+    <circle cx="1150" cy="755" r="3"/>
+  </g>
+
+  <!-- Signature Floating Color Accent Dots (from reference image) -->
+  <!-- Amber Accent Dot (Left) -->
+  <circle cx="160" cy="490" r="9" fill="#f5a900" opacity="0.95"/>
+  <!-- Navy Accent Dot (Center-Right) -->
+  <circle cx="580" cy="760" r="6" fill="#07172b" opacity="0.85"/>
+  <!-- Cyan Hollow Accent Ring (Center-Left) -->
+  <circle cx="480" cy="430" r="8" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.75"/>
+  <!-- Amber Accent Dot (Top-Right) -->
+  <circle cx="1280" cy="140" r="7" fill="#f5a900" opacity="0.9"/>
+  <!-- Navy Accent Dot (Bottom-Center) -->
+  <circle cx="780" cy="220" r="5" fill="#f5a900" opacity="0.8"/>
+</svg>
