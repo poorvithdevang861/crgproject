@@ -36,7 +36,11 @@ function buildDialog() {
         <datalist id="qld-areas">${areas}</datalist>
         <label><span>Anything else? <span class="optional">(optional)</span></span><textarea name="message" rows="2" placeholder="${DEFAULT_EXAMPLE}"></textarea></label>
         <p class="form-status" role="alert" hidden></p>
-        <button class="btn btn-amber" type="submit">Request My Free Inspection</button>
+        <button class="btn btn-amber" type="submit" style="width:100%; min-height:50px;">Request My Free Inspection</button>
+        <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin-top:14px; font-size:12.5px; color:var(--muted);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px; height:15px; color:var(--success);"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <span>100% Free · No obligation · Privacy guaranteed</span>
+        </div>
       </form>
     </div>`;
   document.body.appendChild(dialog);

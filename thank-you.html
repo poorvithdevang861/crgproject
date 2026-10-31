@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Thank You | Civic Restoration Group</title>
-  <meta name="description" content="Thank you for contacting Civic Restoration Group.">
+  <meta name="description" content="Thank you for contacting Civic Restoration Group. We have received your roof enquiry.">
   <meta name="robots" content="noindex">
   <link rel="canonical" href="https://civicrestoration.com.au/thank-you.html">
   <meta property="og:type" content="website">
@@ -16,16 +16,21 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@800;900&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@800;900&display=swap"></noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"></noscript>
   <link rel="preload" as="image" href="assets/images/coastal-roof.webp" fetchpriority="high">
-  <link rel="stylesheet" href="css/style.css?v=20">
+  <link rel="stylesheet" href="css/style.css?v=25">
 </head>
-<body>
+<body id="top">
+  <!-- Top Navigation Header -->
   <header class="topbar">
     <div class="nav-wrap">
-      <a class="brand" href="index.html"><img src="assets/logos/crg-logo-transparent.png" alt="Civic Restoration Group logo"></a>
-      <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <a class="brand" href="index.html" aria-label="Civic Restoration Group Homepage">
+        <img src="assets/logos/crg-logo-transparent.png" alt="Civic Restoration Group logo">
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
       <nav class="nav">
         <a href="index.html">Home</a>
         <div class="nav-dropdown">
@@ -47,21 +52,68 @@
             <a href="faq.html">FAQ</a>
           </div>
         </div>
-        <a class="mobile-only" href="contact.html" data-inspection-dialog>Book Inspection</a>
+        <a class="mobile-only" href="tel:1300417246">Call 1300 417 246</a>
+        <a class="mobile-only" href="contact.html" data-inspection-dialog>Book Free Inspection</a>
       </nav>
-      <a class="btn btn-outline header-cta" href="contact.html" data-inspection-dialog>Book Inspection</a>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:1300417246" aria-label="Call Civic Restoration Group">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>1300 417 246</span>
+        </a>
+        <a class="btn btn-amber header-cta" href="contact.html" data-inspection-dialog>Book Free Check</a>
+      </div>
     </div>
   </header>
+
   <main>
     <section class="subhero">
-      <div class="container">
-        <p class="eyebrow">Enquiry received</p>
-        <h1>Thank you for contacting CRG<span class="dot">.</span></h1>
-        <p>We have received your enquiry and a member of our team will contact you shortly.</p>
-        <p><a class="btn btn-amber" href="index.html">Return Home</a></p>
+      <div class="container" style="text-align:center; max-width:700px; margin:0 auto;">
+        <div style="width:64px; height:64px; border-radius:50%; background:var(--amber); color:#06101f; display:grid; place-items:center; margin:0 auto 20px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:32px; height:32px;" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+        <p class="eyebrow" style="justify-content:center;">Enquiry Received</p>
+        <h1 style="max-width:none;">Thank you for contacting CRG<span class="dot">.</span></h1>
+        <p class="subhero-lead" style="max-width:none; margin:16px 0 32px;">We have received your inspection request. A member of our Queensland team will call you shortly to confirm your property details and arrange a time.</p>
+        
+        <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+          <a class="btn btn-amber" href="index.html">Return to Homepage</a>
+          <a class="btn btn-outline" href="tel:1300417246">Need Urgent Help? Call 1300 417 246</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container" style="max-width:800px;">
+        <div style="background:var(--white); border-radius:var(--radius-xl); padding:40px; box-shadow:var(--shadow-sm); border:1px solid var(--line);">
+          <h2 style="font-size:24px; margin-bottom:16px; color:var(--navy);">What happens next?</h2>
+          
+          <ol class="timeline" style="grid-template-columns:1fr; gap:20px;">
+            <li class="timeline-step" style="padding:24px 28px;">
+              <b style="color:var(--navy); font-size:17px; display:block; margin-bottom:4px;">1. Booking Confirmation</b>
+              <p style="margin:0; font-size:15px; color:var(--muted);">A local team member reviews your request and calls or messages you to confirm a suitable inspection window.</p>
+            </li>
+            <li class="timeline-step" style="padding:24px 28px;">
+              <b style="color:var(--navy); font-size:17px; display:block; margin-bottom:4px;">2. Thorough Visual &amp; Photo Check</b>
+              <p style="margin:0; font-size:15px; color:var(--muted);">Our licensed tradesperson conducts a safe inspection of your roof surfaces, flashings, valleys, and guttering.</p>
+            </li>
+            <li class="timeline-step" style="padding:24px 28px;">
+              <b style="color:var(--navy); font-size:17px; display:block; margin-bottom:4px;">3. Photographic Report Delivered</b>
+              <p style="margin:0; font-size:15px; color:var(--muted);">You receive a clear digital report with dated high-resolution photographs and straightforward, honest advice.</p>
+            </li>
+          </ol>
+        </div>
       </div>
     </section>
   </main>
-  <script type="module" src="js/main.js?v=20"></script>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <p>© 2026 Civic Restoration Group · ABN [to be confirmed] · QBCC Licence [to be confirmed]</p>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js?v=25"></script>
 </body>
 </html>
